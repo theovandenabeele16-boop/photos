@@ -1,6 +1,6 @@
 @extends('temlog')
 @section('content')
-    <h1>Connexion</h1>
+    <h1 class="salut">Connexion</h1>
 
     @if ($errors->any())
         <ul style="color:red">
