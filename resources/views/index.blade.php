@@ -9,8 +9,7 @@
         <form id="logout" action="{{route("logout")}}" method="post">
             @csrf
         </form>
-       {{-- <a href="{{ route("??")}}">Route accessible que si on est connecté</a>--}}
-
+       <a href="{{ route("album")}}">Album Photo</a>
 @endauth
 
 @guest
